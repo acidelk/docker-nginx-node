@@ -23,6 +23,3 @@ RUN apk add --no-cache \
     && cd .. \
     && rm -Rf "node-v$NODE_VERSION" \
     && rm "node-v$NODE_VERSION.tar.xz"
-
-CMD [ "node" ]
-
